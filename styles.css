@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.main-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.main-header p {
+  font-size: 1.2rem;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+main .btn-primary {
+  background-color: #007bff !important;
+  border-color: #eef2f5 !important;
+}
+
+main .btn-primary:hover {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #343a40;
+  color: white;
+  font-size: 1rem;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+/* Fix Bootstrap Conflicts */
+.navbar .nav-link {
+  font-size: 1.2rem !important;
+}
+
+.navbar .nav-link.active {
+  color: #f30e0e !important;
+}
